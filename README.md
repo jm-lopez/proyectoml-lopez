@@ -12,17 +12,17 @@ Carpeta restAPI:
 
 Uso del archivo ProyectoML.jar en la carpeta release:
 
-1) Ejecución normal o mediante consola : java -jar ProyectoML.jar
+1) Ejecución normal o mediante consola : java -jar ProyectoML.jar<br>
 	Ejecuta la interfaz grafica provista para el ejercicio. Este modo permite observar la evolución de las actividades, avanzar en un numero variable de dias (1, 5 o 10 dias; 1, 5 o 10 años), y muestra tanto la información general del estado de la simulación, asi como una representacion grafica del estado.
-2) Ejecucion mediante consola : java -jar ProyectoML.jar <dias>
-	Muestra el resultado de un universo en el que han transcurrido <dias> dias. Muestra los datos de los eventos climaticos relevantes.
-3) Acceso por API : https://planet-weather.appspot.com/clima?dia=<dias>
+2) Ejecucion mediante consola : java -jar ProyectoML.jar [dias]<br>
+	Muestra el resultado de un universo en el que han transcurrido [dias] dias. Muestra los datos de los eventos climaticos relevantes.
+3) Acceso por API : https://planet-weather.appspot.com/clima?dia=[dias]<br>
 	Retorna un json con el formato:
 	{
-		"dia" : <dias>,
-		"clima" : <clima>
+		"dia" : [dias],
+		"clima" : [clima]
 	}
-	Donde <clima> es el clima del universo en el dia ingresado.
+	Donde [clima] es el clima del universo en el dia ingresado.
 
 Clarificaciones y asunciones:
 
